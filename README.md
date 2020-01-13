@@ -2,7 +2,7 @@
 This is an exemple of a full data pipeline used as a template for several ML competitions such as Kaggle. The objective is to go from raw data to submissions seamlessy and to iterate fast to experiment many ideas.
 
 The project can be structured as follows:
-
+```bash
 .
 ├── data
 │   ├── processed
@@ -29,7 +29,7 @@ The project can be structured as follows:
 │   ├── submission_2019-11-18_21_10_28_ENSEMBLE.csv
 │   ├── submission_2019-11-18_21_42_29_LR.csv
 └── submissions_history.ods
-
+```
 
 The competition was proposed as inclass assignement during the last session of https://mlcourse.ai/.
 
