@@ -9,18 +9,18 @@ The order of running the script is:
 1 - Generate features with extensive feature engineering as export the data set as pickle object
 
 ```bash
-python build_features.py root_dir "."
+python build_features.py root_dir ROOT_DIR
 ```
 
 2- Train out of the box ML models to calibrate the complexity of the task
 ```bash
-python train.py root_dir "."
+python train.py root_dir ROOT_DIR
 ```
 
 3- Ensemble promising models based on public leaderboard scores
 
 ```bash
-python ensemble.py root_dir "."
-``
+python ensemble.py root_dir ROOT_DIR
+```
 
 Happy kaggling :)
